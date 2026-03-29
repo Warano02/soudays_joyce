@@ -19,32 +19,7 @@ export const metadata = {
   authors: [{ name: "Soudays & Joyce" }],
   creator: "Soudays & Joyce",
   publisher: "Soudays & Joyce",
-  alternates: {
-    canonical: "https://www.soudays-joyce-mariage.com",
-  },
-  openGraph: {
-    title: "Soudays & Joyce - Notre Mariage",
-    description: "Bienvenue sur le site officiel du mariage de Soudays et Joyce. Découvrez notre histoire, les détails de l'événement, notre galerie et confirmez votre présence.",
-    url: "https://www.soudays-joyce-mariage.com",
-    siteName: "Soudays & Joyce Mariage",
-    images: [
-      {
-        url: "/images/hero-placeholder.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Soudays & Joyce - Mariage"
-      }
-    ],
-    locale: "fr_FR",
-    type: "website"
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Soudays & Joyce - Notre Mariage",
-    description: "Découvrez le site officiel du mariage de Soudays et Joyce.",
-    images: ["/images/hero-placeholder.jpg"],
-    creator: "@SoudaysJoyce"
-  }
+ 
 }
 
 export default function RootLayout({
